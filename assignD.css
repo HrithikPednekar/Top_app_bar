@@ -1,0 +1,46 @@
+body{
+    padding-top: 15rem;
+}
+
+.main1{
+    background-color: blueviolet;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    height: 5rem;
+    width: 36rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: auto;
+}
+
+.name{
+    font-size: 30px;
+    text-shadow: 1px 1px rgba(186, 61, 211, 0.559);
+}
+
+.main2{
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border-style: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn:focus{
+    background-color: rgba(186, 61, 211, 0.559);
+}
+
+.i{
+    font-size: 24px;
+    margin:0px;
+    padding-right: 0px;
+}
